@@ -81,9 +81,9 @@ const dataportfolio = [{
     link: "media/test.png",
 },
 {
-    img: "https://picsum.photos/400/800/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "media/stellie.jpg",
+    description: "Jupiter P1",
+    link: "media/stellie.jpg",
 },
 {
     img: "https://picsum.photos/400/?grayscale",
