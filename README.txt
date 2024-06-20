@@ -41,6 +41,17 @@ Step 2: Update Your Portfolio Images
 3. Save Your Changes:
    - After updating the `dataportfolio` array, save the "EDIT_THIS_FILE.js" file.
 
+4. Open up the terminal app and type:
+- cd Desktop
+- cd MyWeb
+- cd Portfolio
+- git add .
+- git commit -m "new commit"
+- git push origin main
+
+
+NOW WAIT FOR 3 MINUTES THE WEBSITE WILL UPDATE
+
 Need Help?
 
 If you get stuck or need help, just let me know. 

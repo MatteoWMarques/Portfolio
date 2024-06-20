@@ -75,11 +75,7 @@ const highlights = [{
 ];
 
 
-const dataportfolio = [{
-    img: "media/test.png",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "media/test.png",
-},
+const dataportfolio = [
 {
     img: "media/stellie.jpg",
     description: "Jupiter P1",
