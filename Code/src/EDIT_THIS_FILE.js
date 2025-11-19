@@ -96,10 +96,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    instagram: "https://www.instagram.com/matteo.w.marques?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+    linkedin: "www.linkedin.com/in/mwmarques",
 };
 export {
     meta,
