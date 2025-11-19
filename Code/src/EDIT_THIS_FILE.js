@@ -96,7 +96,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    instagram: "https://www.instagram.com/matteo.w.marques?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+    facebook: "https://www.instagram.com/matteo.w.marques?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
     linkedin: "www.linkedin.com/in/mwmarques",
 };
 export {
