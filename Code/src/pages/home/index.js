@@ -6,6 +6,32 @@ import { introdata, meta } from "../../EDIT_THIS_FILE.js";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+  const resumePath = "/" + resume;
+
+  // Function to handle resume download
+  const handleDownload = () => {
+    // Fetch the resume file
+    fetch(resume)
+      .then((response) => response.blob())
+      .then((blob) => {
+        // Create a temporary link element
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "resume.pdf"); // Set the download attribute
+        // Trigger the click event to start downloading
+        document.body.appendChild(link);
+        link.click();
+        // Clean up
+        link.parentNode.removeChild(link);
+      })
+      .catch((error) => {
+        console.error("Error downloading the resume:", error);
+      });
+
+    window.open("/" + resume);
+  };
+  
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -63,6 +89,14 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                  <Link to={resumePath} className="text_2">
+                    <div id="button_p" className="ac_btn btn" onClick={handleDownload}>
+                      My Resume
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+            </Link>
                 </div>
               </div>
             </div>
