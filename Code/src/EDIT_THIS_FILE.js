@@ -4,7 +4,7 @@ const meta = {
     description: "I'm Matteo Marques, a POSSE Scholar at Pomona College studying Environmental Analysis.",
 };
 
-const resume = "Diego Marques Resume.pdf";
+const resume = "Matteo Marques.Resume.pdf";
 
 const introdata = {
     title: "I’m Matteo Marques",
