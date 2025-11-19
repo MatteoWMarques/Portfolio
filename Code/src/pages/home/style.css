@@ -176,11 +176,15 @@ section {
 
 .intro_btn-action {
   display: flex;
-  flex-wrap: wrap;      /* allows clean wrapping */
-  gap: 12px;            /* spacing between buttons */
-  justify-content: center; /* optional: center-align buttons */
+  flex-wrap: nowrap;     /* ⛔️ no wrapping allowed */
+  gap: 12px;             /* spacing between buttons */
+  justify-content: center;
 }
 
+.intro_btn-action .ac_btn {
+  margin-right: 0;       /* remove old spacing */
+  white-space: nowrap;   /* button text won’t wrap */
+}
 .intro_sec .h_bg-image .block {
     bottom: 50vh;
     max-width: 220px;
