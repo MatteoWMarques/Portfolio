@@ -1,7 +1,7 @@
 const logotext = "MATTEO";
 const meta = {
     title: "Matteo Marques",
-    description: "I'm Matteo Marques, upcoming college student with a focus on Enviromental Policy.",
+    description: "I'm Matteo Marques, a POSSE Scholar at Pomona College studying Environmental Analysis.",
 };
 
 const resume = "Diego Marques Resume.pdf";
@@ -13,13 +13,13 @@ const introdata = {
         second: "Photographer",
         third: "Student",
     },
-    description: "Hello! I'm Matteo, an upcoming college student with a focus on Enviromental Policy. I currently work as an intern with Miami Waterkeepers perserving Miami's beautiful waterways. I also love to run and do photography!",
+    description: "Hello! I'm Matteo, a POSSE Scholar at Pomona College studying Environmental Analysis. I am currently a student; however, I also work as an intern with Miami Waterkeepers, preserving Miami's beautiful waterways. I also love to run and do photography!",
     your_img_url: "matteo.png",
 };
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "Hi! I'm Matteo, a high schooler at Miami Beach Senior High. I'm a straight-A IB student and the proud president of our STEAM Club. As the captain of the swim team, I love leading my teammates and pushing myself to new limits. I'm also an intern at Miami Waterkeepers, where I help protect our local waterways. Outside of school and work, I'm an avid runner who enjoys staying active and connected to nature. Thanks for checking out my portfolio!",
+    aboutme: "Hi! I'm Matteo, a Posse Scholar at Pomona College studying Environmental Analysis. Growing up in Miami sparked my love for the ocean and my commitment to protecting it. In high school, I graduated as a straight-A IB student while leading the STEAM Club, captaining the swim team, and working with Miami WaterKeeper on local conservation projects. Now at Pomona, I’m continuing to explore environmental issues through research, advocacy, and hands-on community work. Outside of academics, I love scuba diving, running, and staying connected to nature. Thanks for visiting my portfolio!",
 };
 const worktimeline = [{
     jobtitle: "Designer of week",
