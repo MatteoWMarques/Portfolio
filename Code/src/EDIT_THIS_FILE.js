@@ -97,7 +97,7 @@ const contactConfig = {
 
 const socialprofils = {
     facebook: "https://www.instagram.com/matteo.w.marques?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
-    linkedin: "www.linkedin.com/in/mwmarques",
+    linkedin: "https://www.linkedin.com/in/mwmarques/",
 };
 export {
     meta,
