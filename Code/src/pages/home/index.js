@@ -90,7 +90,7 @@ export const Home = () => {
                     </div>
                   </Link>
                   <Link to={resumePath} className="text_2">
-                    <div id="button_p" className="ac_btn btn" onClick={handleDownload}>
+                    <div id="button_h" className="ac_btn btn" onClick={handleDownload}>
                       My Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
